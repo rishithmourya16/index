@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rishith Thommandru | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Preloader Styles */
+    #preloader {
+      background: linear-gradient(to right, #c084fc, #60a5fa);
+      height: 100vh;
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .loader {
+      border: 6px solid #fff;
+      border-top: 6px solid #8b5cf6;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* Entrance Animation */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeUp 1s forwards;
+    }
+
+    @keyframes fadeUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-purple-100 to-blue-100 text-gray-800 font-sans">
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="hidden" id="content">
+    <!-- Hero Section -->
+    <section class="text-center py-20 fade-up">
+      <h1 class="text-5xl font-bold">A man on word, ready to crack any code.</h1>
+      <p class="mt-4 text-xl">Hi there! I'm <span class="text-purple-600 font-semibold">Rishith Thommandru</span> from Vijayawada.</p>
+      <p class="text-md mt-2 text-gray-600">A unique person you would never meet.</p> <!-- Profile Image -->
+    </section>
+
+ <!-- About Me with Centered Image -->
+<section class="max-w-4xl mx-auto px-6 py-12 fade-up flex flex-col items-center gap-10">
+    <!-- Text Content -->
+    <div class="text-center">
+      <h2 class="text-3xl font-semibold text-purple-700 mb-4">Meet Rishith Thommandru 👋</h2> 
+  
+      <!-- Profile Image -->
+      <div class="w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden shadow-xl border-4 border-purple-400 mx-auto">
+        <img src="me.jpg" alt="Rishith Thommandru" class="w-full h-full object-cover" />
+      </div>
+  
+      <p class="text-lg text-gray-700 mt-4">
+        A man on word, ready to crack any code. I'm Rishith from Vijayawada, currently pursuing my 2nd year BTech in CSE at Velagapudi Ramakrishna College of Engineering.
+        A unique person you would never meet – blending tech brilliance, civil service dreams, and creative energy into every step I take.
+      </p>
+    </div>
+  </section>
+  
+ 
+  
+
+    <!-- Projects -->
+    <section class="max-w-4xl mx-auto px-6 py-10 fade-up">
+        <div class="bg-white/80 p-6 rounded-xl shadow-md">
+      <h2 class="text-3xl font-semibold text-purple-700 mb-6">Projects</h2>
+<!-- Zero Hunger Project Section -->
+<section class="max-w-4xl mx-auto px-6 py-12 fade-up">
+    <h2 class="text-3xl font-semibold text-purple-700 mb-6">Zero Hunger Project 🍽️</h2>
+    <p class="text-lg text-gray-700 mb-8">
+      A web application that aims to end hunger by connecting food donors (restaurants, events) with receivers in need. The app helps reduce food waste and directs excess food to those who are starving.
+    </p>
+    <!-- Presentation Section -->
+    <div class="mt-8">
+      <h3 class="text-2xl font-semibold text-purple-700 mb-4">Project Presentation 📹</h3>
+      <p class="text-gray-700 mb-4">
+        Here's a detailed presentation of the Zero Hunger project, explaining its functionality and impact. Watch the video or view the slides for more information.
+      </p>
+      <!-- Optional Link to Slides or Downloadable PDF -->
+      <a href="https://docs.google.com/presentation/d/1bU_bNnXZXkTRz1zaLjtBwbrQn_yuonIG/edit?usp=drive_link&ouid=110414034346917681830&rtpof=true&sd=true" target="_blank" class="bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-full font-semibold transition duration-300">
+        Preview of Project
+      </a>
+
+    </div>
+  </section>
+  
+
+      <div class="bg-white/80 p-6 rounded-xl shadow-md">
+        <h3 class="text-2xl font-bold">CyberCall ID 🔒 (Idea)</h3>
+        <p class="text-lg mt-2">
+          A proposed idea to verify phone calls by checking the caller’s identity before the user answers, helping reduce cyber scams and fraud in India.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="max-w-3xl mx-auto px-6 py-10 bg-white/80 rounded-2xl shadow-xl my-10 fade-up">
+      <h2 class="text-3xl font-semibold text-purple-700 mb-4">Skills</h2>
+      <ul class="grid grid-cols-2 sm:grid-cols-3 gap-4 text-lg">
+        <li>HTML / CSS</li>
+        <li>JAVA</li>
+        <li>React</li>  
+        <li>Prompt Engineer</li>
+        <li>UI/UX</li>
+        <li>Leadership</li>
+      </ul>
+    </section>
+
+    <!-- Certifications -->
+<section class="max-w-4xl mx-auto px-6 py-10 fade-up">
+    <h2 class="text-3xl font-semibold text-purple-700 mb-6">Certifications 📜</h2>
+  
+    <div class="space-y-6">
+      <!-- Certificate 1 -->
+      <div class="bg-white/80 p-5 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+        <h3 class="text-xl font-bold">NCC ‘C’ Certificate – Army Wing</h3>
+        <p class="mt-1 text-gray-700">Certified by National Cadet Corps, India. Demonstrates leadership, discipline, and commitment to service.</p>
+        <a href="https://drive.google.com/file/d/18J-LgCgpr-1SH8b41IRw9uLX5Fg9fKuZ/view?usp=drive_link" target="_blank" class="text-purple-600 underline mt-2 inline-block">View Certificate</a> 
+      </div>
+  
+      <!-- Certificate 2 -->
+      <div class="bg-white/80 p-5 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+        <h3 class="text-xl font-bold">Prompt Engineering</h3>
+        <p class="mt-1 text-gray-700">Completed hands-on training by IBM.A prompt engineer who can get any AI into hands</p>
+        <a href="https://drive.google.com/file/d/1o8v9EbYC0Vjc_2--iFzK9uFU-JwjvJ-z/view?usp=drive_link" target="_blank" class="text-purple-600 underline mt-2 inline-block">View Certificate</a>
+    </div>
+  
+      <!-- Certificate 3 -->
+      <div class="bg-white/80 p-5 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+        <h3 class="text-xl font-bold">JAVA programming</h3>
+        <p class="mt-1 text-gray-700">Completed JAVA by Greatlearning .</p>
+        <a href="https://drive.google.com/file/d/1jiGUlyQYnpyxs35Wh8EvwHxtZVonDI3F/view?usp=drive_link" target="_blank" class="text-purple-600 underline mt-2 inline-block">View Certificate</a>
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="bg-white/80 p-5 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+        <h3 class="text-xl font-bold">Linux</h3>
+        <p class="mt-1 text-gray-700">expert in Linux operating systems. cerified by Cisco.</p>
+        <a href="https://drive.google.com/file/d/1jiGUlyQYnpyxs35Wh8EvwHxtZVonDI3F/view?usp=drive_link" target="_blank" class="text-purple-600 underline mt-2 inline-block">View Certificate</a>
+      </div>
+
+      <!-- Certificate 5 -->
+      <div class="bg-white/80 p-5 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+        <h3 class="text-xl font-bold">DataBase Management systems</h3>
+        <p class="mt-1 text-gray-700">Completed DBMS by Greatlearning.</p>
+        <a href=https://drive.google.com/file/d/12lPlp-W9IduD1iBxC8bYz0ADOwJxJ1xM/view?usp=drive_link" target="_blank" class="text-purple-600 underline mt-2 inline-block">View Certificate</a>
+      </div>
+    </div>
+  </section>
+  
+
+    <!-- Vision -->
+    <section class="max-w-3xl mx-auto px-6 py-10 fade-up">
+      <h2 class="text-3xl font-semibold text-purple-700 mb-4">Vision</h2>
+      <p class="text-lg">
+        My mission is to build tech that solves real problems—scalable and purpose-driven. Be it through code or civil service, I strive to serve India with impact.
+      </p>
+    </section>
+
+   <!-- Contact Section -->
+<section class="max-w-4xl mx-auto px-6 py-12 fade-up text-center">
+    <h2 class="text-3xl font-semibold text-purple-700 mb-6">Get in Touch 📬</h2>
+  
+    <p class="text-lg text-gray-700 mb-8">
+      Have a question or want to connect? Feel free to reach out!
+    </p>
+  
+    <!-- Say Hello Button -->
+    <a href="mailto:rishithmourya16@gmail.com?subject=Hello%20Rishith" class="bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-full font-semibold transition duration-300">
+      Say Hello 👋
+    </a>
+  </section>
+  
+  </main>
+
+  <!-- JS to remove preloader -->
+  <script>
+    window.addEventListener('load', () => {
+      document.getElementById('preloader').style.display = 'none';
+      document.getElementById('content').classList.remove('hidden');
+    });
+  </script>
+</body>
+</html>
